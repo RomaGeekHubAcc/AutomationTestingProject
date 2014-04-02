@@ -112,12 +112,8 @@
 		A83FD6BD18E9C1B800E22BDE /* DynamicsAnimatorTut */ = {
 			isa = PBXGroup;
 			children = (
-				A83FD6C618E9C1B800E22BDE /* AppDelegate.h */,
-				A83FD6C718E9C1B800E22BDE /* AppDelegate.m */,
-				A83FD6C918E9C1B800E22BDE /* Main.storyboard */,
-				A83FD6CC18E9C1B800E22BDE /* ViewController.h */,
-				A83FD6CD18E9C1B800E22BDE /* ViewController.m */,
-				A83FD6CF18E9C1B800E22BDE /* Images.xcassets */,
+				A83FD6ED18E9C1D600E22BDE /* Classes */,
+				A83FD6EC18E9C1BF00E22BDE /* Resourses */,
 				A83FD6BE18E9C1B800E22BDE /* Supporting Files */,
 			);
 			path = DynamicsAnimatorTut;
@@ -150,6 +146,34 @@
 				A83FD6DF18E9C1B800E22BDE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A83FD6EC18E9C1BF00E22BDE /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				A83FD6C918E9C1B800E22BDE /* Main.storyboard */,
+				A83FD6CF18E9C1B800E22BDE /* Images.xcassets */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		A83FD6ED18E9C1D600E22BDE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A83FD6C618E9C1B800E22BDE /* AppDelegate.h */,
+				A83FD6C718E9C1B800E22BDE /* AppDelegate.m */,
+				A83FD6EE18E9C1DD00E22BDE /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A83FD6EE18E9C1DD00E22BDE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A83FD6CC18E9C1B800E22BDE /* ViewController.h */,
+				A83FD6CD18E9C1B800E22BDE /* ViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
